@@ -4,17 +4,21 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    
     color:$sf-color;
-    height: 100%;
+    
 }
 .header{
     width: 100%;
     display:flex;
     height: 100px;
     justify-content: space-between;
-    padding: 20px 50px;
-    box-sizing: border-box;
+   
+   box-sizing: border-box;
+   padding: 30px;
+   margin-bottom: 20px;
+   align-items: center;
+
 }
 .nav li{
     display:inline-block;
@@ -31,7 +35,10 @@
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    margin-top: 50px;;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+   
 }
 
 .welcome-figure{
@@ -39,12 +46,13 @@
     img{
         height: auto;
         width: 100%;
-        padding-top: 5%;
+        padding-top: 10%;
+       
     }
 }
 .welcome-message-head{
-    padding: 10% 0 0 20%;
-    font-size: 2.2em;
+    padding:3% 5% 0 5%;
+    font-size: 2em;
 }
 @supports(display:grid){
 
