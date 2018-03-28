@@ -1,4 +1,16 @@
-html{
-    background-color: $main-color;
-    color:black;
+html{ 
+    color:$f-color;
+    font-family: $f-font;
+    font-weight:$w-font;
 }
+
+
+.btn{
+    border-radius:36px;
+    padding:10px 30px;
+    color:$gradient01;
+    background-color: $sf-color;
+    border:none;
+    font-size:0.8em;
+}
+
