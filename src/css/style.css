@@ -408,6 +408,9 @@ html {
   margin-right: auto;
   margin-left: auto; }
 
+.color {
+  color: #d90746; }
+
 .welcome {
   background-image: url("/images/rectangle-3.png");
   background-repeat: no-repeat;
@@ -459,7 +462,7 @@ html {
     grid-gap: 30px; } }
 
 .message-wrap {
-  height: 400px;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -467,18 +470,43 @@ html {
   width: 100%; }
 
 .figure-message {
-  padding: 5% 10%; }
+  padding: 5% 10% 0; }
   .figure-message img {
     height: auto;
     width: 100%; }
 
 .message-text {
-  padding: 10% 8% 0 0%; }
+  padding: 20% 8% 0 0%; }
 
 @supports (display: grid) {
   .message-wrap {
     display: grid;
     margin-top: 50px;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5%;
+    grid-gap: 2%;
+    width: 100%; } }
+
+.touch-wrap {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%; }
+
+.figure-touch {
+  padding: 0% 10%; }
+  .figure-touch img {
+    height: auto;
+    width: 100%; }
+
+.message-touch {
+  padding: 20% 0% 0 10%; }
+
+@supports (display: grid) {
+  .touch-wrap {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
     width: 100%; } }

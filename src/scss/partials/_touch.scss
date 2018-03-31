@@ -1,4 +1,4 @@
-.message-wrap{
+.touch-wrap{
     
     height: 100%;
     width: 100%;
@@ -8,28 +8,27 @@
    width:100%;
 
 }
-.figure-message{
-    padding: 5% 10% 0;
+.figure-touch{
+    padding: 0% 10%;
   img{
       height: auto;
       width: 100%;
   }
 
 }
-.message-text{
-   padding: 20% 8% 0 0%;
+.message-touch{
+   padding: 20% 0% 0 10%;
   
 }
 
 
 @supports(display:grid){
 
-    .message-wrap{
+    .touch-wrap{
         display:grid;
         margin-top:50px;
         grid-template-columns: 1fr 1fr;
         grid-gap:2%;
         width: 100%;
-        
     }
 }
