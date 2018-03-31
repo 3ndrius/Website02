@@ -401,7 +401,7 @@ html {
   color: #d90746;
   background-color: #ffffff;
   border: none;
-  font-size: 0.8em; }
+  font-size: 0.5em; }
 
 .main-container {
   max-width: 1920px;
@@ -458,7 +458,19 @@ html {
     grid-template-columns: 2fr 1fr;
     grid-gap: 30px; } }
 
-.easy-message {
-  background-color: green;
+.message-wrap {
   height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   width: 100%; }
+
+.figure-message {
+  padding: 5% 10%; }
+  .figure-message img {
+    height: auto;
+    width: 100%; }
+
+.message-text {
+  padding: 10% 8% 0 0%; }
