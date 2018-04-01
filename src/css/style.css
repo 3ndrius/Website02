@@ -413,7 +413,7 @@ html {
 
 .border {
   color: #e0e0e0;
-  opacity: 0.5; }
+  opacity: 0.2; }
 
 .welcome {
   background-image: url("/images/rectangle-3.png");
@@ -578,3 +578,11 @@ html {
 .figure-center img {
   height: 500px;
   width: auto; }
+
+.media-content {
+  display: flex; }
+  .media-content .icon {
+    padding: 4%; }
+
+.pull-right {
+  text-align: right; }
