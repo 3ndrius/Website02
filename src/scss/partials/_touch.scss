@@ -6,7 +6,7 @@
     flex-direction: row;
    justify-content: space-around;
    width:100%;
-
+   
 }
 .figure-touch{
     padding: 0% 10%;
@@ -25,8 +25,7 @@
 @supports(display:grid){
 
     .touch-wrap{
-        display:grid;
-        margin-top:50px;
+        display:grid;       
         grid-template-columns: 1fr 1fr;
         grid-gap:2%;
         width: 100%;

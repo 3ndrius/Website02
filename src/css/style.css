@@ -451,7 +451,7 @@ html {
   padding-top: 10%; }
 
 .welcome-message-head {
-  padding: 3% 5% 0 5%;
+  padding: 5% 5% 0 5%;
   font-size: 2em; }
 
 @supports (display: grid) {
@@ -481,7 +481,6 @@ html {
 @supports (display: grid) {
   .message-wrap {
     display: grid;
-    margin-top: 50px;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2%;
     width: 100%; } }
@@ -506,7 +505,6 @@ html {
 @supports (display: grid) {
   .touch-wrap {
     display: grid;
-    margin-top: 50px;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2%;
     width: 100%; } }
