@@ -545,3 +545,36 @@ html {
     padding-right: 10%;
     width: auto;
     height: 100%; }
+
+.media {
+  display: flex;
+  padding: 0 8%;
+  width: 84%;
+  position: relative;
+  color: #ffffff;
+  font-size: .8em; }
+  .media::before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: linear-gradient(to bottom, #d90746, #d90746, #de1a40, #e3273a, #e73333, #ea3e2c);
+    z-index: -1;
+    height: 350px;
+    width: 100%; }
+
+.media-comment-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.media-comment-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.figure-center img {
+  height: 500px;
+  width: auto; }

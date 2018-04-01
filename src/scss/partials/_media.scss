@@ -1,0 +1,46 @@
+.media{
+    display:flex;
+    padding: 0 8%;
+    width: 84%;
+   position: relative;
+   color:$sf-color;
+   font-size: .8em;
+
+   &::before{
+    content:'';
+    position: absolute;
+    top:60px;
+    left:0;
+    background:$background-gradient;
+    z-index: -1;
+    height: 350px;
+    width: 100%;
+}
+ 
+}
+
+
+.media-comment-left{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.media-comment-right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.figure-center 
+{
+    
+    img{
+        height: 500px;
+        width: auto;
+    }
+}
