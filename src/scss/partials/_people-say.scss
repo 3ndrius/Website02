@@ -1,0 +1,55 @@
+.people-say{
+    h1{
+        text-align: center;
+    }
+    padding: 5%;
+
+    
+}
+
+.comment{
+    display:flex;
+    flex-direction: row;
+}
+.card{
+    padding:50px 20px;
+
+    .desc{
+        padding-top: 5%;
+        border-top:.7px solid $c-border;
+        border-bottom:.7px solid $c-border;
+        opacity:.8;
+        margin-bottom: 10%;
+        
+       
+
+      
+    }
+    .shadow{
+        -webkit-box-shadow: 22px 26px 76px 3px rgba(231,231,231,1);
+-moz-box-shadow: 22px 26px 76px 3px rgba(231,231,231,1);
+box-shadow: 22px 26px 76px 3px rgba(231,231,231,1);
+        padding: 7%;
+        top:-12%;
+       
+        position: relative;
+    }
+  
+ 
+
+}
+.fig-desc{
+    display:flex;
+
+    
+    
+    
+    img{
+        padding-right: 10%;
+        width: auto;
+        height: 100%;
+       
+    }
+    
+   
+}

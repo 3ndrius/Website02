@@ -411,6 +411,10 @@ html {
 .color {
   color: #d90746; }
 
+.border {
+  color: #e0e0e0;
+  opacity: 0.5; }
+
 .welcome {
   background-image: url("/images/rectangle-3.png");
   background-repeat: no-repeat;
@@ -508,3 +512,35 @@ html {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2%;
     width: 100%; } }
+
+.people-say {
+  padding: 5%; }
+  .people-say h1 {
+    text-align: center; }
+
+.comment {
+  display: flex;
+  flex-direction: row; }
+
+.card {
+  padding: 50px 20px; }
+  .card .desc {
+    padding-top: 5%;
+    border-top: 0.7px solid #e0e0e0;
+    border-bottom: 0.7px solid #e0e0e0;
+    opacity: .8;
+    margin-bottom: 10%; }
+  .card .shadow {
+    -webkit-box-shadow: 22px 26px 76px 3px #e7e7e7;
+    -moz-box-shadow: 22px 26px 76px 3px #e7e7e7;
+    box-shadow: 22px 26px 76px 3px #e7e7e7;
+    padding: 7%;
+    top: -12%;
+    position: relative; }
+
+.fig-desc {
+  display: flex; }
+  .fig-desc img {
+    padding-right: 10%;
+    width: auto;
+    height: 100%; }
