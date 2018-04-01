@@ -514,7 +514,7 @@ html {
     width: 100%; } }
 
 .people-say {
-  padding: 5%; }
+  padding: 5% 9%; }
   .people-say h1 {
     text-align: center; }
 
@@ -525,6 +525,7 @@ html {
 .card {
   padding: 50px 20px; }
   .card .desc {
+    margin-top: 1px;
     padding-top: 5%;
     border-top: 0.7px solid #e0e0e0;
     border-bottom: 0.7px solid #e0e0e0;
