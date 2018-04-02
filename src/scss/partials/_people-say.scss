@@ -1,56 +1,41 @@
-.people-say{
-    h1{
-        text-align: center;
-    }
-    padding: 5% 9%;
-
-    
+.people-say {
+  h1 {
+    text-align: center;
+  }
+  padding: 5% 9%;
 }
 
-.comment{
-    display:flex;
-    flex-direction: row;
+.comment {
+  display: flex;
+  flex-direction: row;
 }
-.card{
-    padding:50px 20px;
+.card {
+  padding: 50px 20px;
 
-    .desc{
-        margin-top: 1px;
-        padding-top: 5%;
-        border-top:.7px solid $c-border;
-        border-bottom:.7px solid $c-border;
-        opacity:.8;
-        margin-bottom: 10%;
-        
-       
+  .desc {
+    margin-top: 1px;
+    padding-top: 5%;
+    border-top: 0.7px solid $c-border;
+    border-bottom: 0.7px solid $c-border;
+    opacity: 0.8;
+    margin-bottom: 10%;
+  }
+  .shadow {
+    -webkit-box-shadow: 22px 26px 76px 3px rgba(231, 231, 231, 1);
+    -moz-box-shadow: 22px 26px 76px 3px rgba(231, 231, 231, 1);
+    box-shadow: 22px 26px 76px 3px rgba(231, 231, 231, 1);
+    padding: 7%;
+    top: -12%;
 
-      
-    }
-    .shadow{
-        -webkit-box-shadow: 22px 26px 76px 3px rgba(231,231,231,1);
--moz-box-shadow: 22px 26px 76px 3px rgba(231,231,231,1);
-box-shadow: 22px 26px 76px 3px rgba(231,231,231,1);
-        padding: 7%;
-        top:-12%;
-       
-        position: relative;
-    }
-  
- 
-
+    position: relative;
+  }
 }
-.fig-desc{
-    display:flex;
+.fig-desc {
+  display: flex;
 
-    
-    
-    
-    img{
-        padding-right: 10%;
-        width: auto;
-        height: 100%;
-       
-    }
-    
-   
+  img {
+    padding-right: 10%;
+    width: auto;
+    height: 100%;
+  }
 }
