@@ -402,6 +402,10 @@ html {
   background-color: #ffffff;
   border: none;
   font-size: 0.5em; }
+  .btn:hover {
+    color: #ea3e2c;
+    cursor: pointer;
+    background-color: #e0e0e0; }
 
 .main-container {
   max-width: 1920px;
@@ -413,7 +417,7 @@ html {
 
 .border {
   color: #e0e0e0;
-  opacity: 0.2; }
+  opacity: 0.3; }
 
 .welcome {
   background-image: url("/images/rectangle-3.png");
@@ -529,7 +533,7 @@ html {
     padding-top: 5%;
     border-top: 0.7px solid #e0e0e0;
     border-bottom: 0.7px solid #e0e0e0;
-    opacity: .8;
+    opacity: 0.8;
     margin-bottom: 10%; }
   .card .shadow {
     -webkit-box-shadow: 22px 26px 76px 3px #e7e7e7;
@@ -552,9 +556,9 @@ html {
   width: 84%;
   position: relative;
   color: #ffffff;
-  font-size: .8em; }
+  font-size: 0.8em; }
   .media::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 60px;
     left: 0;

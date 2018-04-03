@@ -12,6 +12,13 @@ html{
     background-color: $sf-color;
     border:none;
     font-size:0.5em;
+
+    &:hover{
+        color:$gradient02;
+        cursor:pointer;
+        background-color:$c-border;
+
+    }
     
 }
 .main-container{
