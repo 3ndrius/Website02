@@ -5,7 +5,7 @@ html{
 }
 
 
-.btn{
+.btn, .btn-invert{
     border-radius:36px;
     padding:10px 30px;
     color:$gradient01;
@@ -20,6 +20,11 @@ html{
 
     }
     
+}
+.btn-invert{
+    color:$sf-color;
+    background:$background-gradient;
+    font-size: 0.7em;
 }
 .main-container{
     max-width: 1920px;

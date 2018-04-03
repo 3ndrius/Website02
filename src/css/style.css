@@ -395,17 +395,22 @@ html {
   font-family: "Lato", sans-serif, Arial;
   font-weight: 400; }
 
-.btn {
+.btn, .btn-invert {
   border-radius: 36px;
   padding: 10px 30px;
   color: #d90746;
   background-color: #ffffff;
   border: none;
   font-size: 0.5em; }
-  .btn:hover {
+  .btn:hover, .btn-invert:hover {
     color: #ea3e2c;
     cursor: pointer;
     background-color: #e0e0e0; }
+
+.btn-invert {
+  color: #ffffff;
+  background: linear-gradient(to bottom, #d90746, #d90746, #de1a40, #e3273a, #e73333, #ea3e2c);
+  font-size: 0.7em; }
 
 .main-container {
   max-width: 1920px;
