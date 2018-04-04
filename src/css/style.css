@@ -412,6 +412,8 @@ html {
   color: #ffffff;
   background: linear-gradient(to bottom, #d90746, #d90746, #de1a40, #e3273a, #e73333, #ea3e2c);
   font-size: 0.7em; }
+  .btn-invert:hover {
+    color: gray; }
 
 .main-container {
   max-width: 1920px;
@@ -592,7 +594,7 @@ html {
 .media-content {
   display: flex; }
   .media-content .icon {
-    padding: 4%; }
+    padding: 6%; }
 
 .pull-right {
   text-align: right; }
@@ -622,7 +624,8 @@ html {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding-top: 5%; }
+  padding-top: 5%;
+  padding-bottom: 5%; }
 
 .download-icon {
   font-size: 2em;
@@ -652,7 +655,7 @@ html {
   background-color: black;
   width: 100px;
   height: 25px;
-  border-radius: 11px;
+  border-radius: 9px;
   padding: 8px;
   color: white; }
   .mobile-download-icon .phone-icon {
@@ -665,10 +668,23 @@ html {
 #footer {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  font-size: 0.7em;
+  padding: 8px; }
 
 .footer-nav {
   text-transform: uppercase; }
+  .footer-nav ul {
+    padding: 0 15px; }
   .footer-nav li {
     display: inline;
-    padding: 4px; }
+    padding: 11px; }
+
+.footer-select {
+  padding: 0 10px; }
+  .footer-select select {
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    border: none;
+    padding: 4px 19px;
+    text-transform: uppercase; }

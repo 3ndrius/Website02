@@ -25,6 +25,9 @@ html{
     color:$sf-color;
     background:$background-gradient;
     font-size: 0.7em;
+    &:hover{
+        color:gray;
+    }
 }
 .main-container{
     max-width: 1920px;
