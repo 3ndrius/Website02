@@ -596,3 +596,23 @@ html {
 
 .pull-right {
   text-align: right; }
+
+.subscribe {
+  padding: 5%;
+  text-align: center; }
+
+.subscribe-text {
+  padding-bottom: 30px; }
+
+.subscribe-wrap input[type=text] {
+  border-radius: 36px;
+  height: 29px;
+  background-color: #f8f8f8;
+  border: 0px solid white;
+  color: #808080;
+  font-size: 0.6em;
+  padding: 0 80px 0 20px; }
+
+.subscribe-wrap .btn-invert {
+  left: -45px;
+  position: relative; }
