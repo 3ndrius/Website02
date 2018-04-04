@@ -616,3 +616,48 @@ html {
 .subscribe-wrap .btn-invert {
   left: -45px;
   position: relative; }
+
+.download-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5%; }
+
+.download-icon {
+  font-size: 2em;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(to bottom, #d90746, #d90746, #de1a40, #e3273a, #e73333, #ea3e2c);
+  width: 85px;
+  height: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 18px;
+  padding-top: 20px;
+  -webkit-box-shadow: 22px 26px 76px 3px #e7e7e7;
+  -moz-box-shadow: 22px 26px 76px 3px #e7e7e7;
+  box-shadow: 22px 26px 76px 3px #e7e7e7; }
+
+.download-text {
+  padding: 4% 12%; }
+
+.mobile-download-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  background-color: black;
+  width: 100px;
+  height: 25px;
+  border-radius: 11px;
+  padding: 8px;
+  color: white; }
+  .mobile-download-icon .phone-icon {
+    padding-right: 10px; }
+  .mobile-download-icon .text-mobile {
+    font-size: 0.4em; }
+    .mobile-download-icon .text-mobile span {
+      font-size: 2.2em; }
