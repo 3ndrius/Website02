@@ -1,0 +1,13 @@
+#footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav{
+    text-transform: uppercase;
+    li{
+        display:inline;
+        padding:4px;
+    }
+}
