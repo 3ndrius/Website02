@@ -413,7 +413,7 @@ html {
   background: linear-gradient(to bottom, #d90746, #d90746, #de1a40, #e3273a, #e73333, #ea3e2c);
   font-size: 0.7em; }
   .btn-invert:hover {
-    color: gray; }
+    color: #afadad; }
 
 .main-container {
   max-width: 1920px;
@@ -643,7 +643,7 @@ html {
   box-shadow: 22px 26px 76px 3px #e7e7e7; }
 
 .download-text {
-  padding: 4% 12%; }
+  padding: 1% 12%; }
 
 .mobile-download-icon {
   display: flex;

@@ -1,28 +1,28 @@
-#footer{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.7em;
-    padding: 8px;
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.7em;
+  padding: 8px;
 }
 
-.footer-nav{
-    text-transform: uppercase;
-    ul{
-        padding: 0 15px;
-    }
-    li{
-        display:inline;
-        padding:11px;
-    }
+.footer-nav {
+  text-transform: uppercase;
+  ul {
+    padding: 0 15px;
+  }
+  li {
+    display: inline;
+    padding: 11px;
+  }
 }
-.footer-select{
-    padding: 0 10px;
-    select{
-        border-radius: 10px;
-        background-color:#f8f8f8;
-        border:none;
-        padding: 4px 19px;
-        text-transform: uppercase;
-    }
+.footer-select {
+  padding: 0 10px;
+  select {
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    border: none;
+    padding: 4px 19px;
+    text-transform: uppercase;
+  }
 }
