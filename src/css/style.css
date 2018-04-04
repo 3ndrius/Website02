@@ -617,7 +617,9 @@ html {
     height: 350px;
     width: 100%; }
   .media i {
-    margin: 0 10px; }
+    margin: 15px 10px; }
+  .media h1, .media p {
+    padding: 0 2%; }
 
 .media-comment-left {
   display: flex;
