@@ -391,6 +391,39 @@ template {
 [hidden] {
   display: none; }
 
+@media (max-width: 1024px) {
+  .main-container {
+    font-size: 0.7em; }
+  .header {
+    padding-bottom: 0; }
+  .welcome-head-wrap {
+    padding-top: 0;
+    position: relative;
+    top: -50px; } }
+
+@media (max-width: 768px) {
+  .main-container {
+    font-size: 0.5em; }
+  .media img {
+    padding: 0%;
+    margin: 0; } }
+
+@media (max-width: 486px) {
+  .main-container {
+    font-size: 0.4em;
+    padding: 0;
+    margin: 0; }
+  .header {
+    padding-bottom: 0;
+    margin: 0;
+    height: 10px; }
+  .media {
+    display: flex;
+    justify-content: center; }
+  .people-say {
+    margin: 0;
+    padding: 0; } }
+
 html {
   color: #363636;
   font-family: "Lato", sans-serif, Arial;
@@ -558,10 +591,19 @@ html {
     width: auto;
     height: 100%; }
 
+@media (max-width: 486px) {
+  .people-say {
+    margin: 10% 0;
+    padding: 0; }
+  .card {
+    padding: 11% 2%;
+    margin: 5% 0; } }
+
 .media {
   display: flex;
-  padding: 0 8%;
-  width: 84%;
+  margin: 0;
+  justify-content: center;
+  width: 100%;
   position: relative;
   color: #ffffff;
   font-size: 0.8em; }
@@ -574,6 +616,8 @@ html {
     z-index: -1;
     height: 350px;
     width: 100%; }
+  .media i {
+    margin: 0 10px; }
 
 .media-comment-left {
   display: flex;
@@ -594,10 +638,16 @@ html {
 .media-content {
   display: flex; }
   .media-content .icon {
-    padding: 6%; }
+    padding: 0; }
 
 .pull-right {
   text-align: right; }
+
+@media (max-width: 486px) {
+  .media-comment-left {
+    display: none; }
+  .media-comment-right {
+    display: none; } }
 
 .subscribe {
   padding: 5%;
@@ -628,7 +678,7 @@ html {
   padding-bottom: 5%; }
 
 .download-icon {
-  font-size: 2em;
+  font-size: 36px;
   font-weight: 700;
   color: white;
   background: linear-gradient(to bottom, #d90746, #d90746, #de1a40, #e3273a, #e73333, #ea3e2c);
@@ -658,6 +708,8 @@ html {
   border-radius: 9px;
   padding: 8px;
   color: white; }
+  .mobile-download-icon:hover {
+    cursor: pointer; }
   .mobile-download-icon .phone-icon {
     padding-right: 10px; }
   .mobile-download-icon .text-mobile {

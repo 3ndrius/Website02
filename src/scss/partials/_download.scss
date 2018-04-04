@@ -10,7 +10,7 @@
 }
 
 .download-icon{
-    font-size:2em;
+    font-size:36px;
     font-weight: 700;
     color:white;
     background: $background-gradient;
@@ -43,6 +43,9 @@
     border-radius:9px;
     padding: 8px;
     color:white;
+    &:hover{
+        cursor: pointer;
+    }
 
    .phone-icon{
     padding-right:10px;
