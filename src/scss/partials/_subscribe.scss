@@ -1,29 +1,23 @@
-.subscribe{
-    
-    padding: 5%;
-    text-align: center;
-    
+.subscribe {
+  padding: 5%;
+  text-align: center;
 }
-.subscribe-text{
-   padding-bottom: 30px;
+.subscribe-text {
+  padding-bottom: 30px;
 }
 
 .subscribe-wrap {
-
-
-input[type=text] {
+  input[type="text"] {
     border-radius: 36px;
     height: 29px;
-    background-color:#f8f8f8;
+    background-color: #f8f8f8;
     border: 0px solid white;
     color: #808080;
-    font-size:0.6em;
+    font-size: 0.6em;
     padding: 0 80px 0 20px;
-    
-  
-}
-.btn-invert{
-    left:-45px;
+  }
+  .btn-invert {
+    left: -45px;
     position: relative;
-}
+  }
 }

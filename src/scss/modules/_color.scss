@@ -1,11 +1,19 @@
 $main-color: white;
 
 $gradient01: #d90746;
-$gradient02:#ea3e2c;
+$gradient02: #ea3e2c;
 
-$background-gradient: linear-gradient(to bottom, #d90746, #d90746, #de1a40, #e3273a, #e73333, #ea3e2c);
+$background-gradient: linear-gradient(
+  to bottom,
+  #d90746,
+  #d90746,
+  #de1a40,
+  #e3273a,
+  #e73333,
+  #ea3e2c
+);
 //background-image
 $f-color: #363636;
-$sf-color:#ffffff;
+$sf-color: #ffffff;
 
-$c-border:#e0e0e0;
+$c-border: #e0e0e0;

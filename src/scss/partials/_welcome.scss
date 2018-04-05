@@ -1,67 +1,57 @@
+.welcome {
+  background-image: url("/images/rectangle-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-.welcome{
-    background-image: url('/images/rectangle-3.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-    color:$sf-color;
-    
+  color: $sf-color;
 }
-.header{
+.header {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  padding: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.nav li {
+  display: inline-block;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+.logo {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.welcome-head-wrap {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.welcome-figure {
+  img {
+    height: auto;
     width: 100%;
-    display:flex;
-    height: 100px;
-    justify-content: space-between;
-   
-   box-sizing: border-box;
-   padding: 30px;
-   margin-bottom: 20px;
-   align-items: center;
-
+    padding-top: 10%;
+  }
 }
-.nav li{
-    display:inline-block;
-    padding: 0 10px;
-    text-transform: uppercase;
+.welcome-message-head {
+  padding: 5% 5% 0 5%;
+  font-size: 2em;
 }
-.logo{
-    font-size:2.5em;
-    font-weight: bold;
+@supports (display: grid) {
+  .welcome-head-wrap {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+  }
 }
-
-.welcome-head-wrap{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    
-   
-}
-
-.welcome-figure{
-
-    img{
-        height: auto;
-        width: 100%;
-        padding-top: 10%;
-       
-    }
-}
-.welcome-message-head{
-    padding:5% 5% 0 5%;
-    font-size: 2em;
-}
-@supports(display:grid){
-
-    .welcome-head-wrap{
-        display:grid;
-        margin-top:50px;
-        grid-template-columns: 2fr 1fr;
-        grid-gap: 30px;
-
-    }
-}
-

@@ -1,62 +1,56 @@
-.download-wrap{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    
-    
+.download-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-.download-icon{
-    font-size:36px;
-    font-weight: 700;
-    color:white;
-    background: $background-gradient;
-    width:85px;
-    height: 60px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius:18px;
-    padding-top: 20px;
-    -webkit-box-shadow: 22px 26px 76px 3px rgba(231, 231, 231, 1);
-    -moz-box-shadow: 22px 26px 76px 3px rgba(231, 231, 231, 1);
-    box-shadow: 22px 26px 76px 3px rgba(231, 231, 231, 1);
-
+.download-icon {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  background: $background-gradient;
+  width: 85px;
+  height: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 18px;
+  padding-top: 20px;
+  -webkit-box-shadow: 22px 26px 76px 3px rgba(231, 231, 231, 1);
+  -moz-box-shadow: 22px 26px 76px 3px rgba(231, 231, 231, 1);
+  box-shadow: 22px 26px 76px 3px rgba(231, 231, 231, 1);
 }
-.download-text{
-    padding: 1% 12%;
+.download-text {
+  padding: 1% 12%;
 }
 
-.mobile-download-icon{
-   display:flex;
-   justify-content: center;
+.mobile-download-icon {
+  display: flex;
+  justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-   
-    flex-direction: row;
-    background-color: black;
-    width: 100px;
-    height: 25px;
-    border-radius:9px;
-    padding: 8px;
-    color:white;
-    &:hover{
-        cursor: pointer;
+
+  flex-direction: row;
+  background-color: black;
+  width: 100px;
+  height: 25px;
+  border-radius: 9px;
+  padding: 8px;
+  color: white;
+  &:hover {
+    cursor: pointer;
+  }
+
+  .phone-icon {
+    padding-right: 10px;
+  }
+  .text-mobile {
+    font-size: 0.4em;
+    span {
+      font-size: 2.2em;
     }
-
-   .phone-icon{
-    padding-right:10px;
-
-   }
-   .text-mobile{
-    
-    font-size:0.4em;
-    span{
-        font-size:2.2em;
-    }
-   }
-
+  }
 }
