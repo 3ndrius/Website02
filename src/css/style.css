@@ -406,7 +406,9 @@ template {
     font-size: 0.5em; }
   .media img {
     padding: 0%;
-    margin: 0; } }
+    margin: 0; }
+  .header {
+    height: 0px; } }
 
 @media (max-width: 486px) {
   .main-container {
@@ -509,6 +511,10 @@ html {
     margin-top: 50px;
     grid-template-columns: 2fr 1fr;
     grid-gap: 30px; } }
+
+@media (max-width: 768px) {
+  .header {
+    height: 0px; } }
 
 .message-wrap {
   height: 100%;
@@ -618,7 +624,8 @@ html {
     width: 100%; }
   .media i {
     margin: 15px 10px; }
-  .media h1, .media p {
+  .media h1,
+  .media p {
     padding: 0 2%; }
 
 .media-comment-left {
@@ -658,7 +665,7 @@ html {
 .subscribe-text {
   padding-bottom: 30px; }
 
-.subscribe-wrap input[type=text] {
+.subscribe-wrap input[type="text"] {
   border-radius: 36px;
   height: 29px;
   background-color: #f8f8f8;
